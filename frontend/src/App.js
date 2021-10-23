@@ -1,8 +1,14 @@
-import './App.scss';
+import React from "react";
+
+import "App.scss";
+import PostList from "PostList";
 
 function App() {
   return (
-    <div> hello </div>
+    <div>
+      Hello, Ask Company.
+      <PostList />
+    </div>
   );
 }
 
